@@ -1,0 +1,104 @@
+<Skin name="Adsorption">
+	<Information>
+		<Author>Raz</Author>
+		<Copyright>Copyright 2005</Copyright>
+		<Version>1.0</Version>
+<ScreenSize Width="591" Height="459" />
+	</Information>
+
+	<FileManager>
+			<BackGround>filemanager.jpg</BackGround>
+	</FileManager>
+	<LoadingScreen ShowInfo="False">
+		<BackGround>loading.jpg</BackGround>
+	</LoadingScreen>
+
+<Main Globe="False" Orb="False" Fog="False">
+<BackGround>bg.jpg</BackGround>
+
+<Image Top="128" Left="31" Width="117" Height="107"  Opacity="0" source="GameIcon" />	<Image Source="GamePreview" />
+<Image Top="73" Left="102" Width="107" Height="107">logo.png</Image>
+
+<InfoFont>Square-10.xpr</InfoFont>
+
+<Text Left="439" Top="130" Align="Left" Color="0xFFFFFFFF" Source="System Settings"></Text>
+<Text Left="436" Top="150" Align="Left" Color="0xFF212121" Source="I.P. Address"></Text>
+<Text Left="436" Top="183" Align="Left" Color="0xFF212121" Source="Free Space"></Text>
+<Text Left="436" Top="278" Align="Left" Color="0xFF212121" Source="DVD Tray"></Text>
+<Text Left="444" Top="391" Align="Left" Color="0xFFFFFFFF" Source="Now Playing"></Text>
+<Text Left="444" Top="427" Align="Left" Color="0xFFFFFFFF" Source="Elapsed Time"></Text>
+
+<Text Left="121" Top="392" Align="Left" Color="0xFFFFFFFF" Source="$Date$"></Text>
+<Text Left="121" Top="416" Align="Left" Color="0xFFFFFFFF" Source="$Time$"></Text>
+
+<Text Left="436" Top="166" Align="Left" Color="0xFFFFFFFF" Source="$IP$"></Text>
+
+<Text Left="436" Top="200" Align="Left" Color="0xFFFFFFFF" Source="C: "></Text>
+<Text Left="456" Top="200" Align="Left" Color="0xFFFFFFFF" Source="$C_FreeMB$"></Text>
+<Text Left="436" Top="219" Align="Left" Color="0xFFFFFFFF" Source="E: "></Text>
+<Text Left="456" Top="219" Align="Left" Color="0xFFFFFFFF" Source="$E_FreeMB$"></Text>
+<Text Left="436" Top="238" Align="Left" Color="0xFFFFFFFF" Source="F: "></Text>
+<Text Left="456" Top="238" Align="Left" Color="0xFFFFFFFF" Source="$F_FreeMB$"></Text>
+
+
+<Text Left="436" Top="295" Align="Left" Color="0xFFFFFFFF" Source="$DVDTitle$"></Text>
+
+<Text Left="453" Top="332" Align="Left" Color="0xFFFFFFFF" Source="$CPUTempC$"></Text>
+<Text Left="551" Top="332" Align="Left" Color="0xFFFFFFFF" Source="$FanSpeed$"></Text>
+
+<Text Left="444" Top="405" Align="Left" Color="0xFFFFFFFF" Source="SongName"></Text>
+<Text Left="444" Top="440" Align="Left" Color="0xFFFFFFFF" Source="SongTime"></Text>
+	
+<Menu Smooth="true" Align="right" Rotate="false" ShowIcon="false" ShowArrows="false">
+	<Position Top="173" Left="161" Width="251" Height="189" Fixed="False" FixAt="1" MaxItem="4" />
+	<Font>Square-10.xpr</Font>
+	<Preview EnableAudio="false" Left="31" Top="250" Width="117" Height="107" />
+</Menu>
+
+
+
+</Main>
+
+<ColorScheme >
+		<AMBIENT_FOGCOLOR>0xFF000000</AMBIENT_FOGCOLOR>
+		<AMBIENT_SKYCOLOR></AMBIENT_SKYCOLOR>
+		<AMBIENT_CELLCOLOR>0x00FFFFFF</AMBIENT_CELLCOLOR>
+
+		<CAPTION_TEXTCOLOR>0xFFFFFFFF</CAPTION_TEXTCOLOR>
+		<CAPTION_BACKCOLOR>0xFF000000</CAPTION_BACKCOLOR>
+		<DIALOG_BORDERCOLOR>0xFFFFFFFF</DIALOG_BORDERCOLOR>
+		<DIALOG_BACKCOLOR>0xFF222222</DIALOG_BACKCOLOR>
+		<DIALOG_INNER_BORDERCOLOR>0xFFFFFFFF</DIALOG_INNER_BORDERCOLOR>
+		<DIALOG_INNER_BACKCOLOR>0xFF222222</DIALOG_INNER_BACKCOLOR>
+		<DIALOG_TEXTCOLOR>0xFFFFFFFF</DIALOG_TEXTCOLOR>
+
+		<DIALOG_DISABLEDTEXT>0xFFC0C0C0</DIALOG_DISABLEDTEXT>
+
+		<OPTION_TEXTCOLOR>0xFFFFFFFF</OPTION_TEXTCOLOR>
+		<OPTION_ACTIVETEXTCOLOR>0xFF65B80C</OPTION_ACTIVETEXTCOLOR>
+		<OPTION_ACTIVEBACKCOLOR>0xFF000000</OPTION_ACTIVEBACKCOLOR>
+
+		<BUTTON_BORDERCOLOR>0xFF000000</BUTTON_BORDERCOLOR>
+		<BUTTON_TEXTCOLOR>0xFF65B80C</BUTTON_TEXTCOLOR>
+		<BUTTON_BACKCOLOR>0xFF000000</BUTTON_BACKCOLOR>
+		<BUTTON_ACTIVETEXTCOLOR>0xFFFFFFFF</BUTTON_ACTIVETEXTCOLOR>
+		<BUTTON_ACTIVEBACKCOLOR>0xFF4F900A</BUTTON_ACTIVEBACKCOLOR>	
+		
+		<KB_KEYBG_HIGHLIGHT>0xCC00C000</KB_KEYBG_HIGHLIGHT>
+		<KB_KEYBG_DISABLED>0xffc0c0c0</KB_KEYBG_DISABLED>
+		<KB_KEY_PRESSED>0xff808080</KB_KEY_PRESSED>
+		<KB_KEY_NORMAL>0xff000000</KB_KEY_NORMAL>
+		<KB_KEY_DISABLED>0xff808080</KB_KEY_DISABLED>
+		<KB_KEY_ACTIVEBORDER>0xff008000</KB_KEY_ACTIVEBORDER>
+		<KB_KEY_TEXTCOLOR>0xff000000</KB_KEY_TEXTCOLOR>
+		<KB_KEY_TEXTBACKCOLOR>0xff65B80C</KB_KEY_TEXTBACKCOLOR>
+		<KB_KEY_TEXTBORDERCOLOR>0xff0000FF</KB_KEY_TEXTBORDERCOLOR>
+		
+		<MENU_TEXTCOLOR>0xFFFFFFFF</MENU_TEXTCOLOR>
+		<MENU_ACTIVETEXTCOLOR>0xFF65B80C</MENU_ACTIVETEXTCOLOR>
+		<MENU_BORDERCOLOR></MENU_BORDERCOLOR>
+		<MENU_BACKCOLOR></MENU_BACKCOLOR>
+		<MENU_ACTIVEBACKCOLOR>0xFF000000</MENU_ACTIVEBACKCOLOR>
+		<MENU_ACTIVEBORDERCOLOR></MENU_ACTIVEBORDERCOLOR>
+	</ColorScheme>
+</Skin>

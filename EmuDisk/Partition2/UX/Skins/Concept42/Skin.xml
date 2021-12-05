@@ -1,0 +1,79 @@
+<Skin Name="Concept42">
+	<Information>
+		<Author>Kthulu</Author>
+		<Copyright>9999</Copyright>
+		<Version>this one</Version>
+	</Information>
+	
+	<LoadingScreen ShowInfo="True">
+	</LoadingScreen>
+
+	<Main Globe="False" Orb="False">
+		<Background>background.png</Background>
+        	<Image Top="0" Left="0" Width="640" Height="480" Opacity="100">concept4.png</Image>
+		<Menu Smooth="True" Align="Left" ShowIcon="True" ShowArrows="False">
+			<Position Top="118" Left="50" Width="300" Height="250" Fixed="False" FixAt="1" MaxItem="7"></Position>
+			<Preview EnableAudio="False" Left="432" Top="34" Width="146" Height="116" />
+			<Font>font2.xpr</Font>
+		</Menu>
+
+		<InfoFont>font1.xpr</InfoFont>
+
+		<Text Top="362" Left="170" Align="Right" Width="250" Color="0xBBFFFFFF" Source="SoundTrack" />
+		<Text Top="377" Left="170" Align="Right" Width="250" Color="0xBBFFFFFF" Source="SongName" />
+		<Text Top="392" Left="420" Align="Right" Color="0xBBFFFFFF" Source="SongTime" />
+
+		<Text Top="422" Left="55" Align="Left" Width="370" Scroll="2" Color="0xBBFFFFFF" Source="$Newsfeed$" />
+
+		<Text Top="362" Left="52" Align="Left" Color="0xBBFFFFFF" Source="$Time$" />
+		<Text Top="377" Left="52" Align="Left" Color="0xBBFFFFFF" Source="$Date$" />
+		<Text Top="392" Left="54" Align="Left" Width="300" Scroll="1" Color="0xBBFFFFFF" Source="D: $DVDTitle$" />
+
+		<Image Top="160" Left="432" width="146" Height="156" Source="GameIcon" />
+		<Image Source="GamePreview" />
+	</Main>
+
+	<FileManager>
+		<Background>filemanager.png</Background>
+	</FileManager>
+
+	<ColorScheme>
+		<AMBIENT_FOGCOLOR>0xFF000020</AMBIENT_FOGCOLOR>
+		<AMBIENT_SKYCOLOR>0xFF000030</AMBIENT_SKYCOLOR>
+		<AMBIENT_CELLCOLOR>0xFF000055</AMBIENT_CELLCOLOR>
+
+		<CAPTION_TEXTCOLOR>0xFFFFFF00</CAPTION_TEXTCOLOR>
+		<CAPTION_BACKCOLOR>0xFF002030</CAPTION_BACKCOLOR>
+
+		<DIALOG_BORDERCOLOR>0xFF000000</DIALOG_BORDERCOLOR>
+		<DIALOG_BACKCOLOR>0xFF002030</DIALOG_BACKCOLOR>
+		<DIALOG_INNER_BORDERCOLOR>0xFF000000</DIALOG_INNER_BORDERCOLOR>
+		<DIALOG_INNER_BACKCOLOR>0xFF000000</DIALOG_INNER_BACKCOLOR>
+		<DIALOG_TEXTCOLOR>0xFFFFFFFF</DIALOG_TEXTCOLOR>
+		<DIALOG_DISABLEDTEXT>0xFF111111</DIALOG_DISABLEDTEXT>
+
+		<OPTION_TEXTCOLOR>0xFFFFFFFF</OPTION_TEXTCOLOR>
+		<OPTION_ACTIVETEXTCOLOR>0xFFFFFF00</OPTION_ACTIVETEXTCOLOR>
+		<OPTION_ACTIVEBACKCOLOR>0xFF002030</OPTION_ACTIVEBACKCOLOR>
+
+		<BUTTON_BORDERCOLOR>0xBB000000</BUTTON_BORDERCOLOR>
+		<BUTTON_TEXTCOLOR>0xFFAAAA00</BUTTON_TEXTCOLOR>
+		<BUTTON_BACKCOLOR>0xFF002030</BUTTON_BACKCOLOR>
+		<BUTTON_ACTIVETEXTCOLOR>0xFFFFFF00</BUTTON_ACTIVETEXTCOLOR>
+		<BUTTON_ACTIVEBACKCOLOR>0xBB000000</BUTTON_ACTIVEBACKCOLOR>
+
+		<KB_KEYBG_HIGHLIGHT>0xFF303030</KB_KEYBG_HIGHLIGHT>
+		<KB_KEYBG_DISABLED>0xFF000055</KB_KEYBG_DISABLED>
+		<KB_KEY_PRESSED>0xFF303030</KB_KEY_PRESSED>
+		<KB_KEY_NORMAL>0xFF000000</KB_KEY_NORMAL>
+		<KB_KEY_DISABLED>0xFF000055</KB_KEY_DISABLED>
+		<KB_KEY_ACTIVEBORDER>0xFF303030</KB_KEY_ACTIVEBORDER>
+		<KB_KEY_TEXTCOLOR>0xFFFFFFFF</KB_KEY_TEXTCOLOR>
+		<KB_KEY_TEXTBACKCOLOR>0xFF000000</KB_KEY_TEXTBACKCOLOR>
+		<KB_KEY_TEXTBORDERCOLOR>0xFFAAAAAA</KB_KEY_TEXTBORDERCOLOR>
+
+		<MENU_TEXTCOLOR>0x80ffffff</MENU_TEXTCOLOR>
+		<MENU_ACTIVETEXTCOLOR>0xFFffffff</MENU_ACTIVETEXTCOLOR>
+		<MENU_ACTIVEBACKCOLOR>0x00000000</MENU_ACTIVEBACKCOLOR>
+	</ColorScheme>
+</Skin>

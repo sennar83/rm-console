@@ -1,0 +1,73 @@
+﻿<Skin name="DragonRite">
+    <Information>
+        <Author>Fenix Dragon</Author>
+        <Version>3</Version>
+        <Copyright>2005</Copyright>
+        <Skinner Name="UX Architect" Version="1.0c" />
+    </Information>
+    <Filemanager SafeBorder="False">
+        <Background>zerg.jpg</Background>
+    </Filemanager>
+    <LoadingScreen ShowInfo="False">
+        <Background>infestedterran1.jpg</Background>
+    </LoadingScreen>
+    <Main Globe="False" Orb="False" Fog="False">
+        <Background EnableAudio="False">lurker4.jpg</Background>
+        <InfoFont>Square-10.xpr</InfoFont>
+        <Text Top="456" Left="425" Width="200" Scroll="0" Color="0xFF804000" Source="DateTime" Align="Right" />
+        <Text Top="456" Left="272" Width="130" Scroll="0" Color="0xFF804000" Source="MBTemp" Align="Left" />
+        <Text Top="455" Left="136" Width="144" Scroll="0" Color="0xFF804000" Source="CPUTemp" Align="Left" />
+        <Text Top="31" Left="421" Width="200" Scroll="0" Color="0xFF804000" Source="Tray" Align="Right" />
+        <Text Top="9" Left="424" Width="200" Scroll="0" Color="0xFF804000" Source="NickName" Align="Right" />
+        <Text Top="76" Left="138" Width="200" Scroll="0" Color="0xFF804000" Source="G_FreeMB" Align="Left" />
+        <Text Top="55" Left="140" Width="200" Scroll="0" Color="0xFF804000" Source="F_FreeMB" Align="Left" />
+        <Text Top="34" Left="140" Width="200" Scroll="0" Color="0xFF804000" Source="E_FreeMB" Align="Left" />
+        <Text Top="13" Left="140" Width="200" Scroll="0" Color="0xFF804000" Source="C_FreeMB" Align="Left" />
+        <Image Top="0" Left="0" Width="150" Height="480" Opacity="100">LeftTrans.png</Image>
+        <Image Top="5" Left="0" Width="100" Height="93" Source="GameIcon" />
+        <Menu Scroll="True" Align="Left" ShowIcon="False" Rotate="True" ShowArrows="False">
+            <ItemPos Top="151" Left="97" Width="256"></ItemPos>
+            <ItemPos Top="190" Left="96" Width="252"></ItemPos>
+            <ItemPos Top="226" Left="96" Width="257"></ItemPos>
+            <ItemPos Top="266" Left="96" Width="248"></ItemPos>
+            <ItemPos Top="306" Left="96" Width="249"></ItemPos>
+            <Font>Trebuchet-12.xpr</Font>
+        </Menu>
+        <ColorScheme>
+            <AMBIENT_FOGCOLOR>0xFFFF0000</AMBIENT_FOGCOLOR>
+            <AMBIENT_SKYCOLOR>0xFF400000</AMBIENT_SKYCOLOR>
+            <AMBIENT_CELLCOLOR>0xFFFFFFFF</AMBIENT_CELLCOLOR>
+            <CAPTION_TEXTCOLOR>0xFFFFFFFF</CAPTION_TEXTCOLOR>
+            <CAPTION_BACKCOLOR>0xFF000000</CAPTION_BACKCOLOR>
+            <DIALOG_BORDERCOLOR>0xFF804000</DIALOG_BORDERCOLOR>
+            <DIALOG_BACKCOLOR>0x8F804000</DIALOG_BACKCOLOR>
+            <DIALOG_INNER_BORDERCOLOR>0xFF804000</DIALOG_INNER_BORDERCOLOR>
+            <DIALOG_INNER_BACKCOLOR>0x96808080</DIALOG_INNER_BACKCOLOR>
+            <DIALOG_TEXTCOLOR>0xFFFFFFFF</DIALOG_TEXTCOLOR>
+            <DIALOG_DISABLEDTEXT>0xFFB3B3B4</DIALOG_DISABLEDTEXT>
+            <OPTION_TEXTCOLOR>0xFFFFFFFF</OPTION_TEXTCOLOR>
+            <OPTION_ACTIVETEXTCOLOR>0xFFFFFFFF</OPTION_ACTIVETEXTCOLOR>
+            <OPTION_ACTIVEBACKCOLOR>0xFF804040</OPTION_ACTIVEBACKCOLOR>
+            <BUTTON_BORDERCOLOR>0xFF804000</BUTTON_BORDERCOLOR>
+            <BUTTON_TEXTCOLOR>0xFFFFFFFF</BUTTON_TEXTCOLOR>
+            <BUTTON_BACKCOLOR>0xFF804000</BUTTON_BACKCOLOR>
+            <BUTTON_ACTIVETEXTCOLOR>0xFFFFFFFF</BUTTON_ACTIVETEXTCOLOR>
+            <BUTTON_ACTIVEBACKCOLOR>0xFF400000</BUTTON_ACTIVEBACKCOLOR>
+            <KB_KEYBG_HIGHLIGHT>0xFF800000</KB_KEYBG_HIGHLIGHT>
+            <KB_KEYBG_DISABLED>0xFFC0C0C0</KB_KEYBG_DISABLED>
+            <KB_KEY_PRESSED>0xFF804000</KB_KEY_PRESSED>
+            <KB_KEY_NORMAL>0xFF000000</KB_KEY_NORMAL>
+            <KB_KEY_DISABLED>0xFFFFFFFF</KB_KEY_DISABLED>
+            <KB_KEY_ACTIVEBORDER>0xFFFFFFFF</KB_KEY_ACTIVEBORDER>
+            <KB_KEY_TEXTCOLOR>0xFF000000</KB_KEY_TEXTCOLOR>
+            <KB_KEY_TEXTBACKCOLOR>0xFFFFFFFF</KB_KEY_TEXTBACKCOLOR>
+            <KB_KEY_TEXTBORDERCOLOR>0xFF808080</KB_KEY_TEXTBORDERCOLOR>
+            <MENU_TEXTCOLOR>0xFF804000</MENU_TEXTCOLOR>
+            <MENU_ACTIVETEXTCOLOR>0xFFFFFFFF</MENU_ACTIVETEXTCOLOR>
+            <MENU_BORDERCOLOR>0xFF804000</MENU_BORDERCOLOR>
+            <MENU_BACKCOLOR>0x96808080</MENU_BACKCOLOR>
+            <MENU_ACTIVEBACKCOLOR>0x0F804000</MENU_ACTIVEBACKCOLOR>
+            <MENU_ACTIVEBORDERCOLOR>0xFFFFFFFF</MENU_ACTIVEBORDERCOLOR>
+        </ColorScheme>
+    </Main>
+</Skin>

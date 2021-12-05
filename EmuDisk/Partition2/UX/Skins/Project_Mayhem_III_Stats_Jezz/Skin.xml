@@ -1,0 +1,166 @@
+<Skin name="Project Mayhem III">
+	<Information>
+		<Author>Jezz, ChokeManiac</Author>
+		<Copyright>Copyright 2005 to whenever</Copyright>
+	 	<Version>1</Version>
+	</Information>
+	<Fonts>
+		<Font Name="Common10">common-font10.xpr</Font>
+		<Font Name="Common14">common-font14.xpr</Font>
+		<Font Name="Special">special-normal-pal.xpr</Font>
+		<Font Name="SpecialBold">special-bold.xpr</Font>
+	</Fonts>	
+	<Main Globe="false" Orb="False" Fog="false">
+		<Cellwall></Cellwall>
+		<Orb></Orb>
+		<Icon></Icon>
+		<BackGround></BackGround>
+		
+		<Menu Smooth="False" Align="left" Rotate="false" ShowIcon="false" Scroll="True" Fixed="False" FixAt="0">
+		<itempos left="40" top="184" width="225"></itempos>
+		<itempos left="40" top="218" width="215"></itempos>
+		<itempos left="40" top="250" width="200"></itempos>
+		<itempos left="40" top="282" width="175"></itempos>
+		<itempos left="40" top="314" width="140"></itempos>
+		<Preview EnableAudio="False" Left="130" Top="80" Width="512" Height="362"/>
+		<Font>Special</Font>
+		
+		</Menu>
+		
+		<Image Left="130" Top="80" zIndex="1">BG_Apps.png</Image> 
+		<Image Left="0" Top="0" zIndex="3">BG_Overlay.png</Image> 
+		<Image Left="380" Top="58" Width="230" Height="64" zIndex="3">Gradient.png</Image> 
+		<Image Left="535" Top="58" zIndex="4">Audio.png</Image> 
+		<Image Left="380" Top="355" Width="230" Height="64" zIndex="3">Gradient.png</Image> 
+		<Image Left="535" Top="355" zIndex="4">HardDisk.png</Image> 	
+		<Image Left="50" Top="345" zIndex="4">Icon_bg.png</Image> 
+		<Image Left="50" Top="345" zIndex="6">Icon_Overlay.png</Image> 
+		<Image Left="65" Top="362" Width="107" Height="85" zIndex="5" Source="GameIcon" />
+		<Image zIndex="2" Source="GamePreview"/>
+		<Image Left="20" Top="30" Width="600" Height="440" zIndex="1">backnew.png</Image>
+		
+		<InfoFont>Common10</InfoFont>    
+                  <Text Top="60" Left="310" Align="Right" Width="220" Scroll="0" Color="0xFFFFFFFF" Font="SpecialBold" zIndex="4" Source="SongName"></Text>
+                  <Text Top="82" Left="310" Align="Right" Width="220" Scroll="0" Color="0xFFFFFFFF" zIndex="4" Source="SoundTrack"></Text>
+                  <Text Top="93" Left="300" Align="Right" Width="230" Scroll="0" Color="0xFFFFFFFF" ScaleX="100" ScaleY="100" Font="Special" zIndex="4" Source="SongTime"></Text>
+
+                  <Text Top="360" Left="305" Align="Right" Width="220" Scroll="0" Color="0xFFFFFFFF" ScaleX="100" ScaleY="100" Font="SmallFont" zIndex="4" Source="E_FreeMB"></Text>
+                  <Text Top="378" Left="305" Align="Right" Width="220" Scroll="0" Color="0xFFFFFFFF" ScaleX="100" ScaleY="100" Font="SmallFont" zIndex="4" Source="F_FreeMB"></Text>
+                  <Text Top="394" Left="305" Align="Right" Width="220" Scroll="0" Color="0xFFFFFFFF" ScaleX="100" ScaleY="100" Font="SmallFont" zIndex="4" Source="C_FreeMB"></Text>
+
+                  <Text Top="420" Left="180" Align="Left" Width="440" Scroll="2" Color="0xFFADADAD" Font="Special" zIndex="4" Source="Newsfeed"></Text>  		
+
+             	  <Text Top="20" Left="530" Align="Left" Color="0xFFADADAD" ScaleX="100" ScaleY="100"  Font="Special" zIndex="4" Source="|  $Time$"></Text>
+                  <Text Top="20" Left="525" Align="Right" Color="0xFFFFFFFF" ScaleX="100" ScaleY="100" Font="Special" zIndex="4" Source="Date"></Text>	
+
+             	  <Text Top="450" Left="30" Align="Left" Color="0xFF303638" ScaleX="100" ScaleY="100"  Font="Special" zIndex="4" Source="IP"></Text>
+             	  <Text Top="450" Left="610" Align="Right" Color="0xFF303638" ScaleX="100" ScaleY="100"  Font="Special" zIndex="4" Source="Tray"></Text>
+         </Main>
+
+	<IntroMovie></IntroMovie>
+        <FileManager SafeBorder="true">
+		<BackGround>filemanager.png</BackGround>
+		
+	</FileManager>
+	
+	<LoadingScreen ShowInfo="False">
+		<BackGround>wait.png</BackGround>
+	</LoadingScreen>
+	
+	<MusicPlayer Top="10" Left="70" Width="484" Height="213" Relative="True">
+		<BackGround>mp.png</BackGround>
+		<Image Left="43" Top="129" Width="425" Height="12" zIndex="4">progress_over.png</Image>
+		<Image Left="55" Top="55" zIndex="2">Audio.png</Image>
+		<Image Left="310" Top="50" Width="135" Height="80" zIndex="3">MP_Bar_Overlay.png</Image>
+		<Image Left="253" Top="180" Width="198" Height="17" zIndex="4">Volume_Overlay.png</Image>
+		<Image Left="253" Top="180" Width="198" Height="17" zIndex="2">Volume_Back.png</Image>
+		
+		<ButtonMap>mp_Buttons.png</ButtonMap>	
+		<Element Type="Play" Left="60" Top="135" Width="32" Height="44" zIndex="3" />
+		<Element Type="Pause" Left="92" Top="135" Width="32" Height="44" zIndex="3" />
+		<Element Type="Stop" Left="124" Top="135" Width="32" Height="44" zIndex="3" />
+		<Element Type="Prev" Left="156" Top="135" Width="32" Height="44" zIndex="3" />
+		<Element Type="Next" Left="198" Top="135" Width="32" Height="44" zIndex="3" />
+		<Element Type="Mute" Left="260" Top="146" Width="32" Height="22" zIndex="3" />
+		<Element Type="Random" Left="292" Top="146" Width="32" Height="22" zIndex="3" />
+		<Element Type="PrevTrack" Left="380" Top="135" Width="32" Height="44" />
+		<Element Type="NextTrack" Left="412" Top="135" Width="32" Height="44" />
+		
+		<Element Type="Meter" Left="310" Top="50" Width="210" Height="80" zIndex="2" Relative="True"/>
+		<Element Type="Progress" Left="43" Top="130" Width="425" Height="10" Direction="right" zIndex="3"/>
+		<Element Type="Volume" Left="280" Top="180" Width="150" Height="10" Direction="right" zIndex="3"/>
+
+
+		<Text Left="145" Top="50" Width="80" Height="15" Color="0xFF4C585D" Source="Current" Font="Common10" Align="left" ScaleX="100" ScaleY="100" zIndex="3" />
+		<Text Left="145" Top="65" Width="95" Height="30" Color="0xFFFFFFFF" Source="SongTime" Font="Common14" Align="left" ScaleX="140" ScaleY="140" zIndex="3" />
+		<Text Left="240" Top="50" Width="80" Height="15" Color="0xFF4C585D" Source="Total" Font="Common10" Align="left" ScaleX="100" ScaleY="100" zIndex="3" />
+		<Text Left="240" Top="65" Width="95" Height="30" Color="0xFFFFFFFF" Source="SongLength" Font="Common14" Align="left" ScaleX="140" ScaleY="140" zIndex="3" />
+		<Text Left="145" Top="100" Width="100" Height="30" Color="0xFF4C585D" Source="SongBitRate" Font="Common10" Align="left" ScaleX="100" ScaleY="100" zIndex="3" />
+		<Text Left="240" Top="100" Width="80" Height="30" Color="0xFF4C585D" Source="SongChannel" Font="Common10" Align="left" ScaleX="100" ScaleY="100" zIndex="3" />
+		<Text Left="65" Top="12" Width="390" Height="30" Color="0xFFFFFFFF" Source="SongTrack" Scroll="1" Font="SpecialBold" ScaleX="100" ScaleY="120" zIndex="3" />
+		<Playlist Top="155" Left="1" Width="640" Height="437" OffsetX="85" OffsetY="92">
+			<BackGround>Playlist.png</BackGround>
+		</Playlist>
+
+	</MusicPlayer>
+
+	<ColorScheme Name="Default">
+	        <AMBIENT_FOGCOLOR>0xFF000000</AMBIENT_FOGCOLOR>
+	        <AMBIENT_SKYCOLOR>0xFF000000</AMBIENT_SKYCOLOR>
+	        <AMBIENT_CELLCOLOR>0xFFE4E4E4</AMBIENT_CELLCOLOR>
+	        <CAPTION_TEXTCOLOR>0xFFFFFFFF</CAPTION_TEXTCOLOR>
+	        <CAPTION_BACKCOLOR>0x005B5B5B</CAPTION_BACKCOLOR>
+            <DIALOG_BORDERCOLOR>0xFF7F7F7F</DIALOG_BORDERCOLOR>
+            <DIALOG_BACKCOLOR>0xFF292929</DIALOG_BACKCOLOR>
+            <DIALOG_INNER_BORDERCOLOR>0xFF7F7F7F</DIALOG_INNER_BORDERCOLOR>
+            <DIALOG_INNER_BACKCOLOR>0xFF000000</DIALOG_INNER_BACKCOLOR>
+	        <DIALOG_TEXTCOLOR>0xFF949494</DIALOG_TEXTCOLOR>
+	        <DIALOG_DISABLEDTEXT>0xFF404040</DIALOG_DISABLEDTEXT>
+	        <OPTION_TEXTCOLOR>0xFF838383</OPTION_TEXTCOLOR>
+	        <OPTION_ACTIVETEXTCOLOR>0xFFFFFFFF</OPTION_ACTIVETEXTCOLOR>
+	        <OPTION_ACTIVEBACKCOLOR>0xFF565656</OPTION_ACTIVEBACKCOLOR>
+	        <BUTTON_BORDERCOLOR>0xFFBFBFBF</BUTTON_BORDERCOLOR>
+	        <BUTTON_TEXTCOLOR>0xFFBFBFBF</BUTTON_TEXTCOLOR>
+	        <BUTTON_BACKCOLOR>0xFF0A0A0A</BUTTON_BACKCOLOR>
+	        <BUTTON_ACTIVETEXTCOLOR>0xFF000000</BUTTON_ACTIVETEXTCOLOR>
+	        <BUTTON_ACTIVEBACKCOLOR>0xFFBFBFBF</BUTTON_ACTIVEBACKCOLOR>
+	        <KB_KEYBG_HIGHLIGHT>0xFF656565</KB_KEYBG_HIGHLIGHT>
+	        <KB_KEYBG_DISABLED>0xFFC0C0C0</KB_KEYBG_DISABLED>
+	        <KB_KEY_PRESSED>0xFFF8F8F8</KB_KEY_PRESSED>
+	        <KB_KEY_NORMAL>0xFF000000</KB_KEY_NORMAL>
+	        <KB_KEY_DISABLED>0x74000000</KB_KEY_DISABLED>
+	        <KB_KEY_ACTIVEBORDER>0xFF000000</KB_KEY_ACTIVEBORDER>
+	        <KB_KEY_TEXTCOLOR>0xFF000000</KB_KEY_TEXTCOLOR>
+	        <KB_KEY_TEXTBACKCOLOR>0xFFD0D0D0</KB_KEY_TEXTBACKCOLOR>
+	        <KB_KEY_TEXTBORDERCOLOR>0xFFFFFFFF</KB_KEY_TEXTBORDERCOLOR>
+		<MENU_TEXTCOLOR>0xFFFFFFFF</MENU_TEXTCOLOR>
+		<MENU_ACTIVETEXTCOLOR>0xFFFFF000</MENU_ACTIVETEXTCOLOR>
+		<MENU_BORDERCOLOR>0x00000000</MENU_BORDERCOLOR>
+		<MENU_BACKCOLOR>0x00000000</MENU_BACKCOLOR>
+		<MENU_ACTIVEBACKCOLOR>0x00000000</MENU_ACTIVEBACKCOLOR>
+		<MENU_ACTIVEBORDERCOLOR>0x00000000</MENU_ACTIVEBORDERCOLOR>
+		<MMActiveForeColor>0xFFFFFFFF</MMActiveForeColor>
+		<MMForeColor>0xFFADADAD</MMForeColor>
+		<MMOffForeColor>0xFF808080</MMOffForeColor>
+		<MMDarkBarColor>0xFF4C585D</MMDarkBarColor>
+		<MMLightBarColor>0xFF4C585D</MMLightBarColor>
+		<MMDarkBackColor>0xFF4C585D</MMDarkBackColor>
+		<WindowBackCOLOR>0xFF000000</WindowBackCOLOR>
+		<WindowForeCOLOR>0xFFFFFFFF</WindowForeCOLOR>
+	</ColorScheme>
+</Skin>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
