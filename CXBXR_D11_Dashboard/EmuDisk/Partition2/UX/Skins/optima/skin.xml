@@ -1,0 +1,72 @@
+<Skin name="Optima Green">
+	<Information>
+		<Author>Darkfall</Author>
+		<Version>1</Version>
+		<Copyright>2006</Copyright>
+		<Skinner Name="UX Architect" Version="1.0c"/>
+	</Information>
+	<IntroMovie EnableAudio="False">3DBrush_Green.xmv</IntroMovie>
+	<LoadingScreen ShowInfo="False">
+		<BackGround EnableAudio="False"></BackGround>
+	</LoadingScreen>
+	<Main Globe="False" Orb="False" Fog="False">
+		<Background EnableAudio="False">UnderLay.jpg</Background>
+		<InfoFont>Trebuchet-12.xpr</InfoFont>
+		<Text Top="22" Left="326" Width="258" Color="0xFFAAAAAA" Source="DateTime" Align="Center"/>
+		<Text Top="60" Left="180" Width="" Color="0xFFAAAAAA" Source="F_FreeMB" Align="Left"/>
+		<Text Top="80" Left="180" Width="" Color="0xFFAAAAAA" Source="E_FreeMB" Align="Left"/>
+		<Text Top="100" Left="180" Width="" Color="0xFFAAAAAA" Source="C_FreeMB" Align="Left"/>
+		<Text Top="60" Left="590" Width="" Color="0xFFAAAAAA" Source="CPUTemp" Align="Right"/>
+		<Text Top="80" Left="590" Width="" Color="0xFFAAAAAA" Source="FanSpeed" Align="Right"/>
+		<Text Top="100" Left="590" Width="" Color="0xFFAAAAAA" Source="VideoMode" Align="Right"/>
+		<Text Top="127" Left="253" Width="320" Color="0xFFAAAAAA" Source="DVD: $DVDTitle$" Align="Right"/>
+		<Text Top="147" Left="575" Width="" Color="0xFFAAAAAA" Source="IP" Align="Right"/>
+		<Text Top="345" Left="590" Width="" Color="0xFFAAAAAA" Source="SoundTrack" Align="Right"/>
+		<Text Top="362" Left="590" Width="" Color="0xFFAAAAAA" Source="SongName" Align="Right"/>
+		<Text Top="379" Left="590" Width="" Color="0xFFAAAAAA" Source="SongTime" Align="Right"/>
+		<Text Top="425" Left="43" Width="258" Color="0xFFAAAAAA" Source="AppVersion" Align="Center"/>
+		<Image Top="19" Left="47" Width="108" Height="115" Opacity="50" Source="GameIcon"/>
+		<Image Source="OverLay.png"/>
+		<Image Source="GamePreview"/>
+		<Menu Scroll="True" Smooth="True" Align="Left" ShowIcon="True" ShowArrows="False">
+			<Preview EnableAudio="False" Top="178" Left="326" Width="258" Height="160"/>
+			<Position Top="137" Left="3" Width="320" Height="270" Fixed="False" FixAt="3" MaxItem="7"/>
+			<Font>Tahoma-14.xpr</Font>
+		</Menu>
+		<ColorScheme>
+			<AMBIENT_FOGCOLOR>0xFF002500</AMBIENT_FOGCOLOR>
+			<AMBIENT_SKYCOLOR>0xFF003000</AMBIENT_SKYCOLOR>
+			<AMBIENT_CELLCOLOR>0xFF005500</AMBIENT_CELLCOLOR>
+			<CAPTION_TEXTCOLOR>0xFFFFFF00</CAPTION_TEXTCOLOR>
+			<CAPTION_BACKCOLOR>0xFF005500</CAPTION_BACKCOLOR>
+			<DIALOG_BORDERCOLOR>0xFF000000</DIALOG_BORDERCOLOR>
+			<DIALOG_BACKCOLOR>0xFF005500</DIALOG_BACKCOLOR>
+			<DIALOG_INNER_BORDERCOLOR>0xFF000000</DIALOG_INNER_BORDERCOLOR>
+			<DIALOG_INNER_BACKCOLOR>0xBB000000</DIALOG_INNER_BACKCOLOR>
+			<DIALOG_TEXTCOLOR>0xFFFFFFFF</DIALOG_TEXTCOLOR>
+			<DIALOG_DISABLEDTEXT>0xFF111111</DIALOG_DISABLEDTEXT>
+			<OPTION_TEXTCOLOR>0xFFFFFFFF</OPTION_TEXTCOLOR>
+			<OPTION_ACTIVETEXTCOLOR>0xFFFFFF00</OPTION_ACTIVETEXTCOLOR>
+			<OPTION_ACTIVEBACKCOLOR>0xFF005500</OPTION_ACTIVEBACKCOLOR>
+			<BUTTON_BORDERCOLOR>0xBB000000</BUTTON_BORDERCOLOR>
+			<BUTTON_TEXTCOLOR>0xFFAAAA00</BUTTON_TEXTCOLOR>
+			<BUTTON_BACKCOLOR>0xFF005500</BUTTON_BACKCOLOR>
+			<BUTTON_ACTIVETEXTCOLOR>0xFFFFFF00</BUTTON_ACTIVETEXTCOLOR>
+			<BUTTON_ACTIVEBACKCOLOR>0xBB000000</BUTTON_ACTIVEBACKCOLOR>
+			<KB_KEYBG_HIGHLIGHT>0xFF303030</KB_KEYBG_HIGHLIGHT>
+			<KB_KEYBG_DISABLED>0xFF005500</KB_KEYBG_DISABLED>
+			<KB_KEY_PRESSED>0xFF303030</KB_KEY_PRESSED>
+			<KB_KEY_NORMAL>0xFF000000</KB_KEY_NORMAL>
+			<KB_KEY_DISABLED>0xFF005500</KB_KEY_DISABLED>
+			<KB_KEY_ACTIVEBORDER>0xFF303030</KB_KEY_ACTIVEBORDER>
+			<KB_KEY_TEXTCOLOR>0xFFFFFFFF</KB_KEY_TEXTCOLOR>
+			<KB_KEY_TEXTBACKCOLOR>0xFF000000</KB_KEY_TEXTBACKCOLOR>
+			<KB_KEY_TEXTBORDERCOLOR>0xFFAAAAAA</KB_KEY_TEXTBORDERCOLOR>
+			<MENU_TEXTCOLOR>0xFFAAAAAA</MENU_TEXTCOLOR>
+			<MENU_ACTIVETEXTCOLOR>0xFFAAAA00</MENU_ACTIVETEXTCOLOR>
+			<MENU_BORDERCOLOR>0xFF000000</MENU_BORDERCOLOR>
+			<MENU_ACTIVEBACKCOLOR>0x00000000</MENU_ACTIVEBACKCOLOR>
+			<MENU_ACTIVEBORDERCOLOR>0x00000000</MENU_ACTIVEBORDERCOLOR>
+		</ColorScheme>
+	</Main>
+</Skin>

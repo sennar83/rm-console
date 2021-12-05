@@ -1,0 +1,548 @@
+Started logging at 15.07.2010 15:38:31
+EmuInit (0xB28): Dxbx Version 0.3 Release Debug
+EmuMain (0xB28): Debug Trace Enabled.
+EmuMain (0xB28): 0x100DBB28 : DxbxKrnlInit
+(
+   hwndParent          : 0x000E047A
+   pTLSData            : 0x00000000
+   pTLS                : 0x00206CC4
+   pLibraryVersion     : 0x00010888
+   DebugConsole        : 0x00000002
+   DebugFileName       : 0x10006B85
+   pXBEHeader          : 0x00010000
+   dwXBEHeaderSize     : 0x00000C60
+   Entry               : 0x000E375D
+)
+EmuMain (0xB28): XBEPath := X:\XBOX\xbox C\
+EmuMain (0xB28): CurDir := X:\XBOX\xbox C\
+EmuMain (0xB28): T Data := C:\Documents and Settings\Виталий\Application Data\Dxbx\EmuDisk\T\9E115330
+EmuMain (0xB28): U Data := C:\Documents and Settings\Виталий\Application Data\Dxbx\EmuDisk\U\9E115330
+EmuMain (0xB28): Z Data := C:\Documents and Settings\Виталий\Application Data\Dxbx\EmuDisk\Z
+EmuFS (0xB28): TLS Data Dump...
+EmuFS (0xB28): 0x08F65B80: 00000000000000000000000000000000
+EmuFS (0xB28): 0x08F65B90: 00000000000000000000000000000000
+EmuFS (0xB28): 0x08F65BA0: 00000000000000000000000000000000
+EmuFS (0xB28): 0x08F65BB0: 00000000000000000000000000000000
+EmuFS (0xB28): 0x08F65BC0: 00000000000000000000000000000000
+EmuFS (0xB28): 0x08F65BD0: 00000000000000000000000000000000
+EmuFS (0xB28): 0x08F65BE0: 00000000000000000000000000000000
+EmuFS (0xB28): 0x08F65BF0: 00000000000000000000000000000000
+EmuFS (0xB28): 0x08F65C00: 00000000000000000000000000000000
+EmuFS (0xB28): CurrentFS=003B  OrgFS=59  NewFS=15  pTLS=0x00206CC4
+EmuMain (0xB28): Initializing Direct3D.
+EmuFS (0xB70): TLS Data Dump...
+EmuFS (0xB70): 0x08F65D20: 00000000000000000000000000000000
+EmuFS (0xB70): 0x08F65D30: 00000000000000000000000000000000
+EmuFS (0xB70): 0x08F65D40: 00000000000000000000000000000000
+EmuFS (0xB70): 0x08F65D50: 00000000000000000000000000000000
+EmuD3D8 (0x420): CreateDevice proxy thread is running.
+EmuFS (0xB70): 0x08F65D60: 00000000000000000000000000000000
+EmuFS (0xB70): 0x08F65D70: 00000000000000000000000000000000
+EmuFS (0xB70): 0x08F65D80: 00000000000000000000000000000000
+EmuFS (0xB70): 0x08F65D90: 00000000000000000000000000000000
+EmuFS (0xB70): 0x08F65DA0: 00000000000000000000000000000000
+EmuFS (0xB70): CurrentFS=003B  OrgFS=59  NewFS=23  pTLS=0x00206CC4
+EmuD3D8 (0xB70): Timing thread is running.
+EmuD3D8 (0xAD0): Message-Pump thread is running.
+EmuD3D8 (0xB28): EmuIDirect3D8_CreateDevice
+(
+   Adapter                   : 0x00000000
+   DeviceType                : 0x00000001
+   hFocusWindow              : 0x00000000
+   BehaviorFlags             : 0x00000040
+   pPresentationParameters   : 0x0838FDCC
+   ppReturnedDeviceInterface : 0x1014C8C4
+);
+BackBufferWidth:        = 640
+BackBufferHeight:       = 480
+BackBufferFormat:       = 0x00000006
+BackBufferCount:        = 0x00000001
+SwapEffect:             = 0x00000001
+EnableAutoDepthStencil: = 0x00000001
+AutoDepthStencilFormat: = 0x0000002A
+Flags:                  = 0x00000000
+EmuD3D8 (0x420): CreateDevice proxy thread received request.
+EmuD3D8 (0x420): Using hardware vertex processing
+EmuD3D8 (0x420): Hardware accelerated YUV surfaces Disabled...
+DxbxHLE: Detected Microsoft XDK application...
+DxbxHLE : Library "XAPILIB" is version 5849
+... Got patterns for exactly this version!
+DxbxHLE : Library "D3D8" is version 5849
+... Got patterns for exactly this version!
+DxbxHLE : Library "D3DX8" is version 5849
+... Got patterns for exactly this version!
+DxbxHLE : Library "XGRAPHC" is version 5849
+... Got patterns for exactly this version!
+DxbxHLE : Library "DSOUND" is version 5849
+... Got patterns for exactly this version!
+DxbxHLE : Library "XBOXKRNL" is version 5849
+... No patterns registered for this library!
+DxbxHLE : Library "XKBD" is version 5849
+... No patterns registered for this library!
+DxbxHLE : Library "XMV" is version 5849
+... No patterns registered for this library!
+DxbxHLE : Library "WMVDEC" is version 4627
+... No patterns registered for this library!
+DxbxHLE : Library "XNET" is version 5849
+... Got patterns for exactly this version!
+DxbxHLE : Library "LIBCPMT" is version 5849
+... No patterns registered for this library!
+DxbxHLE : Library "LIBCMT" is version 5849
+... No patterns registered for this library!
+DxbxHLE : Library "XACTENG" is version 5849
+... Got patterns for exactly this version!
+DxbxHLE : Loaded symbols : 4900.
+DxbxHLE : Determining special symbols
+HLE: $0012E170 -> EmuD3DDeferredTextureState
+HLE: $0012E4E0 -> EmuD3DDeferredRenderState
+HLE: $00241BE0 -> XapiProcessHeap
+DxbxHLE : Detected 4900 symbols, chosen from 4900 potential locations.
+DxbxHLE : Installing registered patches :
+HLE: 0x000DE71D -> GetOverlappedResult (patching _GetOverlappedResult@16)
+HLE: 0x000DEA45 -> XGetFileCacheSize (patching _XGetFileCacheSize@0)
+HLE: 0x000DF2B7 -> GetTimeZoneInformation (patching _GetTimeZoneInformation@4)
+HLE: 0x000DF576 -> SetThreadPriority (patching _SetThreadPriority@8)
+HLE: 0x000DF5C8 -> SetThreadPriorityBoost (patching _SetThreadPriorityBoost@8)
+HLE: 0x000DF65A -> RaiseException (patching _RaiseException@16)
+HLE: 0x000DF6D5 -> GetExitCodeThread (patching _GetExitCodeThread@8)
+HLE: 0x000DF733 -> XRegisterThreadNotifyRoutine (patching _XRegisterThreadNotifyRoutine@8)
+HLE: 0x000DF7B8 -> XapiThreadStartup (patching _XapiThreadStartup@8)
+HLE: 0x000DFB8C -> PulseEvent (patching _PulseEvent@4)
+HLE: 0x000E21C8 -> QueryPerformanceCounter (patching _QueryPerformanceCounter@4)
+HLE: 0x000E21D9 -> QueryPerformanceFrequency (patching _QueryPerformanceFrequency@4)
+HLE: 0x000E269D -> XGetSectionHandleA (patching _XGetSectionHandleA@4)
+HLE: 0x000E2704 -> XLoadSectionByHandle (patching _XLoadSectionByHandle@4)
+HLE: 0x000E2725 -> XFreeSectionByHandle (patching _XFreeSectionByHandle@4)
+HLE: 0x000E2743 -> XLoadSectionA (patching _XLoadSectionA@4)
+HLE: 0x000E275E -> XFreeSectionA (patching _XFreeSectionA@4)
+HLE: 0x000E2779 -> XGetSectionSize (patching _XGetSectionSize@4)
+HLE: 0x000E2D49 -> XMountUtilityDrive (patching _XMountUtilityDrive@4)
+HLE: 0x000E2E4E -> XFormatUtilityDrive (patching _XFormatUtilityDrive@0)
+HLE: 0x000E3107 -> XLaunchNewImageA (patching _XLaunchNewImageA@8)
+HLE: 0x000E322A -> XGetLaunchInfo (patching _XGetLaunchInfo@8)
+HLE: 0x000E3AEE -> XapiValidateDiskPartitionEx (patching _XapiValidateDiskPartitionEx@8)
+HLE: 0x000E3FD6 -> XapiBootToDash (patching _XapiBootToDash@12)
+HLE: 0x000E404C -> XapiInitProcess (patching _XapiInitProcess@0)
+HLE: 0x000E4CD3 -> RtlSizeHeap (patching _RtlSizeHeap@12)
+HLE: 0x000E5251 -> RtlCreateHeap (patching _RtlCreateHeap@24)
+HLE: 0x000E5675 -> RtlAllocateHeap (patching _RtlAllocateHeap@12)
+HLE: 0x000E5DF0 -> RtlFreeHeap (patching _RtlFreeHeap@12)
+HLE: 0x000E5FE4 -> RtlReAllocateHeap (patching _RtlReAllocateHeap@16)
+HLE: 0x000E6EF9 -> XapiApplyKernelPatches (patching _XapiApplyKernelPatches@0)
+HLE: 0x000E6FEB -> XapiInitAutoPowerDown (patching _XapiInitAutoPowerDown@0)
+HLE: 0x000E7FBA -> _XGWriteSurfaceOrTextureToXPR@12 (patching _XGWriteSurfaceOrTextureToXPR@12)
+HLE: 0x000FEAA6 -> XNetGetEthernetLinkStatus (patching _XNetGetEthernetLinkStatus@0)
+HLE: 0x0011D7A0 -> D3DDevice_SetRenderState_PSTextureModes (patching _D3DDevice_SetRenderState_PSTextureModes@4)
+HLE: 0x0011D7D0 -> D3DDevice_SetRenderState_Simple (patching @D3DDevice_SetRenderState_Simple@8)
+HLE: 0x0011D860 -> D3DDevice_GetViewportOffsetAndScale (patching _D3DDevice_GetViewportOffsetAndScale@8)
+HLE: 0x0011DAD0 -> D3DDevice_SetRenderState_EdgeAntiAlias (patching _D3DDevice_SetRenderState_EdgeAntiAlias@4)
+HLE: 0x0011DB10 -> D3DDevice_SetRenderState_ShadowFunc (patching _D3DDevice_SetRenderState_ShadowFunc@4)
+HLE: 0x0011DB50 -> D3DDevice_SetRenderState_FogColor (patching _D3DDevice_SetRenderState_FogColor@4)
+HLE: 0x0011DBA0 -> D3DDevice_SetRenderState_CullMode (patching _D3DDevice_SetRenderState_CullMode@4)
+HLE: 0x0011DC10 -> D3DDevice_SetRenderState_FrontFace (patching _D3DDevice_SetRenderState_FrontFace@4)
+HLE: 0x0011DC50 -> D3DDevice_SetRenderState_NormalizeNormals (patching _D3DDevice_SetRenderState_NormalizeNormals@4)
+HLE: 0x0011DC90 -> D3DDevice_SetRenderState_TextureFactor (patching _D3DDevice_SetRenderState_TextureFactor@4)
+HLE: 0x0011DCF0 -> D3DDevice_SetRenderState_LineWidth (patching _D3DDevice_SetRenderState_LineWidth@4)
+HLE: 0x0011DD60 -> D3DDevice_SetRenderState_Dxt1NoiseEnable (patching _D3DDevice_SetRenderState_Dxt1NoiseEnable@4)
+HLE: 0x0011DDE0 -> D3DDevice_SetRenderState_ZBias (patching _D3DDevice_SetRenderState_ZBias@4)
+HLE: 0x0011DE60 -> D3DDevice_SetRenderState_LogicOp (patching _D3DDevice_SetRenderState_LogicOp@4)
+HLE: 0x0011DEC0 -> D3DDevice_SetRenderState_FillMode (patching _D3DDevice_SetRenderState_FillMode@4)
+HLE: 0x0011DF10 -> D3DDevice_SetRenderState_BackFillMode (patching _D3DDevice_SetRenderState_BackFillMode@4)
+HLE: 0x0011DF70 -> D3DDevice_SetRenderState_TwoSidedLighting (patching _D3DDevice_SetRenderState_TwoSidedLighting@4)
+HLE: 0x0011DFF0 -> D3DDevice_SetRenderState_VertexBlend (patching _D3DDevice_SetRenderState_VertexBlend@4)
+HLE: 0x0011E040 -> D3DDevice_SetTextureState_TexCoordIndex (patching _D3DDevice_SetTextureState_TexCoordIndex@8)
+HLE: 0x0011E150 -> D3DDevice_SetTextureState_BumpEnv (patching _D3DDevice_SetTextureState_BumpEnv@12)
+HLE: 0x0011E1C0 -> D3DDevice_SetTextureState_BorderColor (patching _D3DDevice_SetTextureState_BorderColor@8)
+HLE: 0x0011E200 -> D3DDevice_SetTextureState_ColorKeyColor (patching _D3DDevice_SetTextureState_ColorKeyColor@8)
+HLE: 0x0011EA20 -> D3DDevice_SetRenderState_ZEnable (patching _D3DDevice_SetRenderState_ZEnable@4)
+HLE: 0x0011EAB0 -> D3DDevice_SetRenderState_StencilEnable (patching _D3DDevice_SetRenderState_StencilEnable@4)
+HLE: 0x0011EB50 -> D3DDevice_SetRenderState_StencilFail (patching _D3DDevice_SetRenderState_StencilFail@4)
+HLE: 0x0011EBC0 -> D3DDevice_SetRenderState_YuvEnable (patching _D3DDevice_SetRenderState_YuvEnable@4)
+HLE: 0x0011EBF0 -> D3DDevice_SetRenderState_OcclusionCullEnable (patching _D3DDevice_SetRenderState_OcclusionCullEnable@4)
+HLE: 0x0011EC60 -> D3DDevice_SetRenderState_StencilCullEnable (patching _D3DDevice_SetRenderState_StencilCullEnable@4)
+HLE: 0x0011ECD0 -> D3DDevice_SetRenderState_RopZCmpAlwaysRead (patching _D3DDevice_SetRenderState_RopZCmpAlwaysRead@4)
+HLE: 0x0011ECF0 -> D3DDevice_SetRenderState_RopZRead (patching _D3DDevice_SetRenderState_RopZRead@4)
+HLE: 0x0011ED10 -> D3DDevice_SetRenderState_DoNotCullUncompressed (patching _D3DDevice_SetRenderState_DoNotCullUncompressed@4)
+HLE: 0x0011ED30 -> D3DDevice_SetRenderState_MultiSampleMode (patching _D3DDevice_SetRenderState_MultiSampleMode@4)
+HLE: 0x0011ED60 -> D3DDevice_SetRenderState_MultiSampleRenderTargetMode (patching _D3DDevice_SetRenderState_MultiSampleRenderTargetMode@4)
+HLE: 0x0011ED90 -> D3DDevice_SetRenderState_MultiSampleAntiAlias (patching _D3DDevice_SetRenderState_MultiSampleAntiAlias@4)
+HLE: 0x0011EE10 -> D3DDevice_SetRenderState_MultiSampleMask (patching _D3DDevice_SetRenderState_MultiSampleMask@4)
+HLE: 0x0011EE60 -> D3DDevice_SetRenderState_SampleAlpha (patching _D3DDevice_SetRenderState_SampleAlpha@4)
+HLE: 0x0011EEC0 -> D3DDevice_GetDeviceCaps (patching _D3DDevice_GetDeviceCaps@4)
+HLE: 0x0011EEE0 -> D3DDevice_GetCreationParameters (patching _D3DDevice_GetCreationParameters@4)
+HLE: 0x0011EF20 -> D3DDevice_SetTransform (patching _D3DDevice_SetTransform@8)
+HLE: 0x0011F040 -> D3DDevice_GetTransform (patching _D3DDevice_GetTransform@8)
+HLE: 0x0011F070 -> D3DDevice_GetViewport (patching _D3DDevice_GetViewport@4)
+HLE: 0x0011F0B0 -> D3DDevice_SetMaterial (patching _D3DDevice_SetMaterial@4)
+HLE: 0x0011F0F0 -> D3DDevice_BlockUntilVerticalBlank@0 (patching _D3DDevice_BlockUntilVerticalBlank@0)
+HLE: 0x0011F130 -> D3DDevice_SetFlickerFilter (patching _D3DDevice_SetFlickerFilter@4)
+HLE: 0x0011F180 -> D3DDevice_SetSoftDisplayFilter (patching _D3DDevice_SetSoftDisplayFilter@4)
+HLE: 0x0011F2D0 -> D3DDevice_GetDisplayMode (patching _D3DDevice_GetDisplayMode@4)
+HLE: 0x0011F3A0 -> D3DDevice_Reset (patching _D3DDevice_Reset@4)
+HLE: 0x0011F450 -> D3DDevice_SetRenderTarget (patching _D3DDevice_SetRenderTarget@8)
+HLE: 0x0011F6D0 -> D3DDevice_GetBackBuffer2@4 (patching _D3DDevice_GetBackBuffer2@4)
+HLE: 0x0011F720 -> D3DDevice_CopyRects (patching _D3DDevice_CopyRects@20)
+HLE: 0x0011FA50 -> D3DDevice_GetRenderTarget2 (patching _D3DDevice_GetRenderTarget2@0)
+HLE: 0x0011FA70 -> D3DDevice_GetDepthStencilSurface2 (patching _D3DDevice_GetDepthStencilSurface2@0)
+HLE: 0x0011FA90 -> D3DDevice_SetViewport (patching _D3DDevice_SetViewport@4)
+HLE: 0x0011FCC0 -> D3DDevice_SetTexture (patching _D3DDevice_SetTexture@8)
+HLE: 0x0011FE70 -> D3DDevice_SetIndices (patching _D3DDevice_SetIndices@8)
+HLE: 0x0011FF00 -> D3DDevice_IsBusy (patching _D3DDevice_IsBusy@0)
+HLE: 0x0011FF30 -> D3DDevice_GetDisplayFieldStatus (patching _D3DDevice_GetDisplayFieldStatus@4)
+HLE: 0x0011FF70 -> ?SetTileNoWait@D3D@@YGXKPBU_D3DTILE@@@Z (patching ?SetTileNoWait@D3D@@YGXKPBU_D3DTILE@@@Z)
+HLE: 0x00120050 -> D3DDevice_SetScissors (patching _D3DDevice_SetScissors@12)
+HLE: 0x001203D0 -> D3DDevice_PersistDisplay (patching _D3DDevice_PersistDisplay@0)
+HLE: 0x00120500 -> D3DDevice_SetScreenSpaceOffset (patching _D3DDevice_SetScreenSpaceOffset@8)
+HLE: 0x00120DC0 -> D3DDevice_CreateVertexShader@16 (patching _D3DDevice_CreateVertexShader@16)
+HLE: 0x00120F00 -> D3DDevice_SetVertexShaderConstant4 (patching @D3DDevice_SetVertexShaderConstant4@8)
+HLE: 0x00120FB0 -> D3DDevice_SetStreamSource (patching _D3DDevice_SetStreamSource@12)
+HLE: 0x00121040 -> D3DDevice_LoadVertexShader (patching _D3DDevice_LoadVertexShader@8)
+HLE: 0x001210A0 -> D3DDevice_SelectVertexShader (patching _D3DDevice_SelectVertexShader@8)
+HLE: 0x00121140 -> D3DDevice_SetShaderConstantMode (patching _D3DDevice_SetShaderConstantMode@4)
+HLE: 0x00121390 -> D3DDevice_SetVertexShader (patching _D3DDevice_SetVertexShader@4)
+HLE: 0x00121590 -> D3DDevice_DrawVerticesUP@16 (patching _D3DDevice_DrawVerticesUP@16)
+HLE: 0x00121700 -> D3DDevice_DrawVertices@12 (patching _D3DDevice_DrawVertices@12)
+HLE: 0x001217A0 -> D3DDevice_DrawIndexedVertices@12 (patching _D3DDevice_DrawIndexedVertices@12)
+HLE: 0x00121A00 -> D3DDevice_SetVertexData2f (patching _D3DDevice_SetVertexData2f@12)
+HLE: 0x00121A40 -> D3DDevice_SetVertexData4f (patching _D3DDevice_SetVertexData4f@20)
+HLE: 0x00121AA0 -> D3DDevice_SetVertexDataColor (patching _D3DDevice_SetVertexDataColor@8)
+HLE: 0x00121AF0 -> D3DDevice_Begin (patching _D3DDevice_Begin@4)
+HLE: 0x00121B30 -> D3DDevice_End (patching _D3DDevice_End@0)
+HLE: 0x00121CF0 -> D3DResource_AddRef (patching _D3DResource_AddRef@4)
+HLE: 0x00121D30 -> D3DResource_Release (patching _D3DResource_Release@4)
+HLE: 0x00121E10 -> D3DResource_Register (patching _D3DResource_Register@8)
+HLE: 0x00121EB0 -> D3DDevice_CreateTexture2 (patching _D3DDevice_CreateTexture2@28)
+HLE: 0x00121F60 -> D3DBaseTexture_GetLevelCount@4 (patching _D3DBaseTexture_GetLevelCount@4)
+HLE: 0x00121F80 -> D3DTexture_GetSurfaceLevel2 (patching _D3DTexture_GetSurfaceLevel2@8)
+HLE: 0x00121FD0 -> D3DTexture_LockRect (patching _D3DTexture_LockRect@20)
+HLE: 0x00122120 -> D3DSurface_GetDesc (patching _D3DSurface_GetDesc@8)
+HLE: 0x00122140 -> D3DSurface_LockRect@16 (patching _D3DSurface_LockRect@16)
+HLE: 0x00122BC0 -> D3DDevice_Swap (patching _D3DDevice_Swap@4)
+HLE: 0x00122CB0 -> D3DDevice_SetBackBufferScale (patching _D3DDevice_SetBackBufferScale@8)
+HLE: 0x00122E80 -> D3DDevice_CreateIndexBuffer2 (patching _D3DDevice_CreateIndexBuffer2@4)
+HLE: 0x00122EC0 -> D3DDevice_CreateVertexBuffer2 (patching _D3DDevice_CreateVertexBuffer2@4)
+HLE: 0x00122F10 -> D3DVertexBuffer_Lock2 (patching _D3DVertexBuffer_Lock2@8)
+HLE: 0x00122F60 -> D3DPalette_Lock2 (patching _D3DPalette_Lock2@8)
+HLE: 0x00122F90 -> D3DDevice_Clear (patching _D3DDevice_Clear@24)
+HLE: 0x00123380 -> D3DDevice_GetOverlayUpdateStatus (patching _D3DDevice_GetOverlayUpdateStatus@0)
+HLE: 0x001233A0 -> D3DDevice_UpdateOverlay (patching _D3DDevice_UpdateOverlay@20)
+HLE: 0x00123520 -> D3DDevice_EnableOverlay@4 (patching _D3DDevice_EnableOverlay@4)
+HLE: 0x00123590 -> Direct3D_CreateDevice (patching _Direct3D_CreateDevice@24)
+HLE: 0x00123640 -> D3DDevice_CreatePixelShader@8 (patching _D3DDevice_CreatePixelShader@8)
+HLE: 0x00123690 -> D3DDevice_SetPixelShader (patching _D3DDevice_SetPixelShader@4)
+HLE: 0x00123CC0 -> ?KickOff@CDevice@D3D@@QAEXXZ (patching ?KickOff@CDevice@D3D@@QAEXXZ)
+HLE: 0x001241B0 -> KickOffAndWaitForIdle (patching ?KickOffAndWaitForIdle@D3D@@YGXXZ)
+HLE: 0x00126080 -> Get2DSurfaceDesc (patching ?Get2DSurfaceDesc@PixelJar@D3D@@YGXPAUD3DPixelContainer@@IPAU_D3DSURFACE_DESC@@@Z)
+HLE: 0x00126370 -> Lock2DSurface (patching ?Lock2DSurface@PixelJar@D3D@@YGXPAUD3DPixelContainer@@W4_D3DCUBEMAP_FACES@@IPAU_D3DLOCKED_RECT@@PBUtagRECT@@K@Z)
+HLE: 0x0014DF5F -> _XGIsSwizzledFormat@4 (patching _XGIsSwizzledFormat@4)
+HLE: 0x0014E815 -> _XGSwizzleRect@32 (patching _XGSwizzleRect@32)
+HLE: 0x0014EF66 -> _XGUnswizzleRect@32 (patching _XGUnswizzleRect@32)
+HLE: 0x00153621 -> IDirectSound_AddRef (patching _IDirectSound_AddRef@4)
+HLE: 0x00153637 -> _IDirectSound_Release@4 (patching _IDirectSound_Release@4)
+HLE: 0x00153652 -> _IDirectSoundBuffer_Release@4 (patching _IDirectSoundBuffer_Release@4)
+HLE: 0x00153668 -> DirectSoundUseFullHRTF (patching _DirectSoundUseFullHRTF@0)
+HLE: 0x001543B4 -> DirectSound.CDirectSoundStream.Pause (patching ?Pause@CDirectSoundStream@DirectSound@@QAGJK@Z)
+HLE: 0x00154ABA -> DirectSound.CDirectSoundStream.SetFrequency (patching ?SetFrequency@CDirectSoundStream@DirectSound@@QAGJK@Z)
+HLE: 0x00154B0C -> DirectSound.CDirectSoundStream.SetVolume (patching ?SetVolume@CDirectSoundStream@DirectSound@@QAGJJ@Z)
+HLE: 0x00154BB0 -> DirectSound.CDirectSoundStream.SetEG (patching ?SetEG@CDirectSoundStream@DirectSound@@QAGJPBU_DSENVELOPEDESC@@@Z)
+HLE: 0x00154C02 -> DirectSound.CDirectSoundStream.SetFilter (patching ?SetFilter@CDirectSoundStream@DirectSound@@QAGJPBU_DSFILTERDESC@@@Z)
+HLE: 0x00154DEC -> IDirectSound_GetOutputLevels (patching _IDirectSound_GetOutputLevels@12)
+HLE: 0x00154DEC -> IDirectSound_SetAllParameters (patching _IDirectSound_SetAllParameters@12)
+HLE: 0x00154DEC -> IDirectSound_SetMixBinHeadroom (patching _IDirectSound_SetMixBinHeadroom@12)
+HLE: 0x00154E0C -> IDirectSound_EnableHeadphones (patching _IDirectSound_EnableHeadphones@8)
+HLE: 0x00154E0C -> IDirectSound_GetCaps (patching _IDirectSound_GetCaps@8)
+HLE: 0x00154E28 -> IDirectSound_SynchPlayback (patching _IDirectSound_SynchPlayback@4)
+HLE: 0x00154E40 -> IDirectSoundBuffer_SetFrequency (patching _IDirectSoundBuffer_SetFrequency@8)
+HLE: 0x00154E40 -> IDirectSoundBuffer_SetVolume (patching _IDirectSoundBuffer_SetVolume@8)
+HLE: 0x00154E5C -> IDirectSoundBuffer_SetPitch (patching _IDirectSoundBuffer_SetPitch@8)
+HLE: 0x00154E78 -> IDirectSoundBuffer_SetLFO (patching _IDirectSoundBuffer_SetLFO@8)
+HLE: 0x00154EB0 -> IDirectSoundBuffer_SetFilter (patching _IDirectSoundBuffer_SetFilter@8)
+HLE: 0x00154ECC -> IDirectSoundBuffer_SetHeadroom (patching _IDirectSoundBuffer_SetHeadroom@8)
+HLE: 0x00154EE8 -> IDirectSoundBuffer_SetMixBinVolumes (patching _IDirectSoundBuffer_SetMixBinVolumes@8)
+HLE: 0x00154F04 -> IDirectSoundBuffer_Play (patching _IDirectSoundBuffer_Play@16)
+HLE: 0x00154F28 -> IDirectSoundBuffer_Stop (patching _IDirectSoundBuffer_Stop@4)
+HLE: 0x00154F40 -> IDirectSoundBuffer_PlayEx (patching _IDirectSoundBuffer_PlayEx@16)
+HLE: 0x00154F40 -> IDirectSoundBuffer_StopEx (patching _IDirectSoundBuffer_StopEx@16)
+HLE: 0x00154F64 -> IDirectSoundBuffer_Pause (patching _IDirectSoundBuffer_Pause@8)
+HLE: 0x00154F80 -> IDirectSoundBuffer_SetLoopRegion (patching _IDirectSoundBuffer_SetLoopRegion@12)
+HLE: 0x00154FA0 -> IDirectSoundBuffer_GetStatus (patching _IDirectSoundBuffer_GetStatus@8)
+HLE: 0x00154FBC -> IDirectSoundBuffer_GetCurrentPosition (patching _IDirectSoundBuffer_GetCurrentPosition@12)
+HLE: 0x00154FDC -> IDirectSoundBuffer_SetCurrentPosition (patching _IDirectSoundBuffer_SetCurrentPosition@8)
+HLE: 0x00154FF8 -> IDirectSoundBuffer_Lock (patching _IDirectSoundBuffer_Lock@32)
+HLE: 0x001550A4 -> IDirectSoundStream_FlushEx (patching _IDirectSoundStream_FlushEx@16)
+HLE: 0x001550D4 -> DirectSoundDoWork (patching _DirectSoundDoWork@0)
+HLE: 0x001550FD -> XAudioDownloadEffectsImage (patching _XAudioDownloadEffectsImage@16)
+HLE: 0x001557E5 -> DirectSound.CDirectSoundStream.SetMixBins (patching ?SetMixBins@CDirectSoundStream@DirectSound@@QAGJPBU_DSMIXBINS@@@Z)
+HLE: 0x00155853 -> IDirectSoundBuffer_SetMixBins (patching _IDirectSoundBuffer_SetMixBins@8)
+HLE: 0x0015586F -> IDirectSoundBuffer_SetPlayRegion (patching _IDirectSoundBuffer_SetPlayRegion@12)
+HLE: 0x00155EB8 -> IDirectSoundBuffer_SetFormat (patching _IDirectSoundBuffer_SetFormat@8)
+HLE: 0x00155ED4 -> IDirectSoundBuffer_SetBufferData (patching _IDirectSoundBuffer_SetBufferData@12)
+HLE: 0x001563D5 -> _IDirectSound_CommitDeferredSettings@4 (patching _IDirectSound_CommitDeferredSettings@4)
+HLE: 0x0015663D -> IDirectSound_CreateSoundBuffer (patching _IDirectSound_CreateSoundBuffer@16)
+HLE: 0x00156685 -> IDirectSound_SetI3DL2Listener (patching _IDirectSound_SetI3DL2Listener@12)
+HLE: 0x0015684B -> DirectSoundCreate (patching _DirectSoundCreate@12)
+HLE: 0x00156892 -> DirectSoundCreateBuffer (patching _DirectSoundCreateBuffer@8)
+HLE: 0x001568E9 -> DirectSoundCreateStream (patching _DirectSoundCreateStream@8)
+HLE: 0x001BCB7F -> XNetStartup (patching _XNetStartup@4)
+HLE: 0x001BCB96 -> WSAStartup (patching _WSAStartup@8)
+HLE: 0x001EDA00 -> _USBD_Init@8 (patching _USBD_Init@8)
+HLE: 0x001EE6D1 -> XGetDevices (patching _XGetDevices@4)
+HLE: 0x001EE6F3 -> XGetDeviceChanges (patching _XGetDeviceChanges@12)
+HLE: 0x001EE760 -> XInputOpen (patching _XInputOpen@16)
+HLE: 0x001EE7B6 -> XInputClose (patching _XInputClose@4)
+HLE: 0x001EE7C2 -> XInputGetCapabilities (patching _XInputGetCapabilities@8)
+HLE: 0x001EE99A -> XInputGetState (patching _XInputGetState@8)
+DxbxHLE : Installed patches : 194.
+DxbxHLE : Unused patches : 
+DxbxHLE : Unused patch 007 : XTL_{Emu}_XGSwizzleBox@40
+DxbxHLE : Unused patch 011 : XTL_{Emu}CDirectSound.GetSpeakerConfig
+DxbxHLE : Unused patch 012 : XTL_{Emu}CDirectSound.SynchPlayback
+DxbxHLE : Unused patch 013 : XTL_{Emu}CreateFiber
+DxbxHLE : Unused patch 014 : XTL_{Emu}CreateMutex
+DxbxHLE : Unused patch 015 : XTL_{Emu}CreateSemaphore
+DxbxHLE : Unused patch 017 : XTL_{Emu}D3DCubeTexture8_LockRect
+DxbxHLE : Unused patch 018 : XTL_{Emu}D3DDevice_AddRef@0
+DxbxHLE : Unused patch 019 : XTL_{Emu}D3DDevice_ApplyStateBlock
+DxbxHLE : Unused patch 020 : XTL_{Emu}D3DDevice_BackFillMode
+DxbxHLE : Unused patch 022 : XTL_{Emu}D3DDevice_BeginPushBuffer
+DxbxHLE : Unused patch 023 : XTL_{Emu}D3DDevice_BeginPushBuffer@4
+DxbxHLE : Unused patch 024 : XTL_{Emu}D3DDevice_BeginStateBlock@0
+DxbxHLE : Unused patch 025 : XTL_{Emu}D3DDevice_BeginVisibilityTest@0
+DxbxHLE : Unused patch 026 : XTL_{Emu}D3DDevice_BlockOnFence
+DxbxHLE : Unused patch 028 : XTL_{Emu}D3DDevice_CaptureStateBlock
+DxbxHLE : Unused patch 031 : XTL_{Emu}D3DDevice_CreateCubeTexture
+DxbxHLE : Unused patch 032 : XTL_{Emu}D3DDevice_CreateImageSurface
+DxbxHLE : Unused patch 033 : XTL_{Emu}D3DDevice_CreateIndexBuffer
+DxbxHLE : Unused patch 035 : XTL_{Emu}D3DDevice_CreatePalette
+DxbxHLE : Unused patch 036 : XTL_{Emu}D3DDevice_CreatePalette2
+DxbxHLE : Unused patch 038 : XTL_{Emu}D3DDevice_CreateStateBlock
+DxbxHLE : Unused patch 039 : XTL_{Emu}D3DDevice_CreateTexture
+DxbxHLE : Unused patch 041 : XTL_{Emu}D3DDevice_CreateVertexBuffer
+DxbxHLE : Unused patch 044 : XTL_{Emu}D3DDevice_CreateVolumeTexture
+DxbxHLE : Unused patch 045 : XTL_{Emu}D3DDevice_DeletePixelShader@4
+DxbxHLE : Unused patch 046 : XTL_{Emu}D3DDevice_DeleteStateBlock
+DxbxHLE : Unused patch 047 : XTL_{Emu}D3DDevice_DeleteVertexShader@4
+DxbxHLE : Unused patch 049 : XTL_{Emu}D3DDevice_DrawIndexedVerticesUP
+DxbxHLE : Unused patch 050 : XTL_{Emu}D3DDevice_DrawRectPatch
+DxbxHLE : Unused patch 055 : XTL_{Emu}D3DDevice_EndPushBuffer
+DxbxHLE : Unused patch 056 : XTL_{Emu}D3DDevice_EndPushBuffer@0
+DxbxHLE : Unused patch 057 : XTL_{Emu}D3DDevice_EndStateBlock
+DxbxHLE : Unused patch 058 : XTL_{Emu}D3DDevice_EndVisibilityTest@4
+DxbxHLE : Unused patch 059 : XTL_{Emu}D3DDevice_FlushVertexCache
+DxbxHLE : Unused patch 060 : XTL_{Emu}D3DDevice_GetBackBuffer
+DxbxHLE : Unused patch 063 : XTL_{Emu}D3DDevice_GetDepthStencilSurface
+DxbxHLE : Unused patch 068 : XTL_{Emu}D3DDevice_GetGammaRamp
+DxbxHLE : Unused patch 069 : XTL_{Emu}D3DDevice_GetModelView
+DxbxHLE : Unused patch 071 : XTL_{Emu}D3DDevice_GetProjectionViewportMatrix
+DxbxHLE : Unused patch 072 : XTL_{Emu}D3DDevice_GetRenderTarget
+DxbxHLE : Unused patch 074 : XTL_{Emu}D3DDevice_GetShaderConstantMode
+DxbxHLE : Unused patch 075 : XTL_{Emu}D3DDevice_GetStreamSource2
+DxbxHLE : Unused patch 076 : XTL_{Emu}D3DDevice_GetTexture2
+DxbxHLE : Unused patch 077 : XTL_{Emu}D3DDevice_GetTile
+DxbxHLE : Unused patch 079 : XTL_{Emu}D3DDevice_GetVertexShader
+DxbxHLE : Unused patch 080 : XTL_{Emu}D3DDevice_GetVertexShaderConstant
+DxbxHLE : Unused patch 081 : XTL_{Emu}D3DDevice_GetVertexShaderDeclaration
+DxbxHLE : Unused patch 082 : XTL_{Emu}D3DDevice_GetVertexShaderFunction
+DxbxHLE : Unused patch 083 : XTL_{Emu}D3DDevice_GetVertexShaderInput
+DxbxHLE : Unused patch 084 : XTL_{Emu}D3DDevice_GetVertexShaderSize
+DxbxHLE : Unused patch 085 : XTL_{Emu}D3DDevice_GetVertexShaderType
+DxbxHLE : Unused patch 088 : XTL_{Emu}D3DDevice_GetVisibilityTestResult
+DxbxHLE : Unused patch 089 : XTL_{Emu}D3DDevice_InsertCallback
+DxbxHLE : Unused patch 090 : XTL_{Emu}D3DDevice_InsertFence
+DxbxHLE : Unused patch 092 : XTL_{Emu}D3DDevice_IsFencePending
+DxbxHLE : Unused patch 093 : XTL_{Emu}D3DDevice_LightEnable
+DxbxHLE : Unused patch 095 : XTL_{Emu}D3DDevice_LoadVertexShaderProgram
+DxbxHLE : Unused patch 097 : XTL_{Emu}D3DDevice_Present
+DxbxHLE : Unused patch 098 : XTL_{Emu}D3DDevice_PrimeVertexCache
+DxbxHLE : Unused patch 099 : XTL_{Emu}D3DDevice_Release
+DxbxHLE : Unused patch 101 : XTL_{Emu}D3DDevice_RunPushBuffer
+DxbxHLE : Unused patch 102 : XTL_{Emu}D3DDevice_RunVertexStateShader
+DxbxHLE : Unused patch 104 : XTL_{Emu}D3DDevice_SelectVertexShaderDirect
+DxbxHLE : Unused patch 106 : XTL_{Emu}D3DDevice_SetBackMaterial
+DxbxHLE : Unused patch 109 : XTL_{Emu}D3DDevice_SetLight
+DxbxHLE : Unused patch 111 : XTL_{Emu}D3DDevice_SetModelView
+DxbxHLE : Unused patch 112 : XTL_{Emu}D3DDevice_SetPalette
+DxbxHLE : Unused patch 114 : XTL_{Emu}D3DDevice_SetPixelShaderConstant
+DxbxHLE : Unused patch 115 : XTL_{Emu}D3DDevice_SetPixelShaderProgram
+DxbxHLE : Unused patch 118 : XTL_{Emu}D3DDevice_SetRenderState_Deferred
+DxbxHLE : Unused patch 153 : XTL_{Emu}D3DDevice_SetStateUP
+DxbxHLE : Unused patch 154 : XTL_{Emu}D3DDevice_SetStateVB
+DxbxHLE : Unused patch 155 : XTL_{Emu}D3DDevice_SetStipple
+DxbxHLE : Unused patch 157 : XTL_{Emu}D3DDevice_SetSwapCallback
+DxbxHLE : Unused patch 163 : XTL_{Emu}D3DDevice_SetTextureState_TwoSidedLighting
+DxbxHLE : Unused patch 164 : XTL_{Emu}D3DDevice_SetTile
+DxbxHLE : Unused patch 167 : XTL_{Emu}D3DDevice_SetVertexData2s
+DxbxHLE : Unused patch 169 : XTL_{Emu}D3DDevice_SetVertexData4s
+DxbxHLE : Unused patch 170 : XTL_{Emu}D3DDevice_SetVertexData4ub
+DxbxHLE : Unused patch 173 : XTL_{Emu}D3DDevice_SetVertexShaderConstant
+DxbxHLE : Unused patch 174 : XTL_{Emu}D3DDevice_SetVertexShaderConstant1
+DxbxHLE : Unused patch 176 : XTL_{Emu}D3DDevice_SetVertexShaderConstantNotInline
+DxbxHLE : Unused patch 177 : XTL_{Emu}D3DDevice_SetVertexShaderInput
+DxbxHLE : Unused patch 178 : XTL_{Emu}D3DDevice_SetVertexShaderInputDirect
+DxbxHLE : Unused patch 179 : XTL_{Emu}D3DDevice_SetVerticalBlankCallback
+DxbxHLE : Unused patch 182 : XTL_{Emu}D3DDevice_SwitchTexture
+DxbxHLE : Unused patch 183 : XTL_{Emu}D3DDevice_Unknown
+DxbxHLE : Unused patch 185 : XTL_{Emu}D3DPalette_Lock
+DxbxHLE : Unused patch 188 : XTL_{Emu}D3DResource_BlockUntilNotBusy
+DxbxHLE : Unused patch 189 : XTL_{Emu}D3DResource_IsBusy
+DxbxHLE : Unused patch 194 : XTL_{Emu}D3DTexture_GetLevelDesc
+DxbxHLE : Unused patch 195 : XTL_{Emu}D3DTexture_GetSurfaceLevel
+DxbxHLE : Unused patch 198 : XTL_{Emu}D3DVertexBuffer_GetDesc
+DxbxHLE : Unused patch 199 : XTL_{Emu}D3DVertexBuffer_Lock
+DxbxHLE : Unused patch 201 : XTL_{Emu}D3DVolumeTexture_LockBox
+DxbxHLE : Unused patch 202 : XTL_{Emu}DeleteFiber
+DxbxHLE : Unused patch 203 : XTL_{Emu}Direct3D_CheckDeviceFormat
+DxbxHLE : Unused patch 204 : XTL_{Emu}Direct3D_CheckDeviceMultiSampleType
+DxbxHLE : Unused patch 206 : XTL_{Emu}Direct3D_EnumAdapterModes
+DxbxHLE : Unused patch 207 : XTL_{Emu}Direct3D_GetAdapterDisplayMode
+DxbxHLE : Unused patch 208 : XTL_{Emu}Direct3D_GetAdapterModeCount
+DxbxHLE : Unused patch 209 : XTL_{Emu}Direct3D_GetDeviceCaps
+DxbxHLE : Unused patch 210 : XTL_{Emu}Direct3D_SetPushBufferSize
+DxbxHLE : Unused patch 211 : XTL_{Emu}Direct3D8_SetGammaRamp
+DxbxHLE : Unused patch 213 : XTL_{Emu}DirectSound.CDirectSoundStream.SetAllParameters
+DxbxHLE : Unused patch 214 : XTL_{Emu}DirectSound.CDirectSoundStream.SetConeAngles
+DxbxHLE : Unused patch 215 : XTL_{Emu}DirectSound.CDirectSoundStream.SetConeOrientation
+DxbxHLE : Unused patch 216 : XTL_{Emu}DirectSound.CDirectSoundStream.SetConeOutsideVolume
+DxbxHLE : Unused patch 220 : XTL_{Emu}DirectSound.CDirectSoundStream.SetMaxDistance
+DxbxHLE : Unused patch 221 : XTL_{Emu}DirectSound.CDirectSoundStream.SetMinDistance
+DxbxHLE : Unused patch 223 : XTL_{Emu}DirectSound.CDirectSoundStream.SetMode
+DxbxHLE : Unused patch 224 : XTL_{Emu}DirectSound.CDirectSoundStream.SetPosition
+DxbxHLE : Unused patch 225 : XTL_{Emu}DirectSound.CDirectSoundStream.SetRolloffFactor
+DxbxHLE : Unused patch 226 : XTL_{Emu}DirectSound.CDirectSoundStream.SetVelocity
+DxbxHLE : Unused patch 232 : XTL_{Emu}DirectSoundGetSampleTime
+DxbxHLE : Unused patch 235 : XTL_{Emu}Get2DSurfaceDescD
+DxbxHLE : Unused patch 238 : XTL_{Emu}GetThreadPriority
+DxbxHLE : Unused patch 241 : XTL_{Emu}IDirectSound_CreateBuffer
+DxbxHLE : Unused patch 243 : XTL_{Emu}IDirectSound_CreateStream
+DxbxHLE : Unused patch 244 : XTL_{Emu}IDirectSound_DownloadEffectsImage
+DxbxHLE : Unused patch 246 : XTL_{Emu}IDirectSound_EnableHeadphones
+DxbxHLE : Unused patch 250 : XTL_{Emu}IDirectSound_SetDistanceFactor
+DxbxHLE : Unused patch 251 : XTL_{Emu}IDirectSound_SetDopplerFactor
+DxbxHLE : Unused patch 254 : XTL_{Emu}IDirectSound_SetOrientation
+DxbxHLE : Unused patch 255 : XTL_{Emu}IDirectSound_SetPosition
+DxbxHLE : Unused patch 256 : XTL_{Emu}IDirectSound_SetRolloffFactor
+DxbxHLE : Unused patch 257 : XTL_{Emu}IDirectSound_SetVelocity
+DxbxHLE : Unused patch 259 : XTL_{Emu}IDirectSoundBuffer_AddRef
+DxbxHLE : Unused patch 267 : XTL_{Emu}IDirectSoundBuffer_SetConeAngles
+DxbxHLE : Unused patch 268 : XTL_{Emu}IDirectSoundBuffer_SetConeOrientation
+DxbxHLE : Unused patch 269 : XTL_{Emu}IDirectSoundBuffer_SetConeOutsideVolume
+DxbxHLE : Unused patch 271 : XTL_{Emu}IDirectSoundBuffer_SetDistanceFactor
+DxbxHLE : Unused patch 272 : XTL_{Emu}IDirectSoundBuffer_SetDopplerFactor
+DxbxHLE : Unused patch 277 : XTL_{Emu}IDirectSoundBuffer_SetI3DL2Source
+DxbxHLE : Unused patch 280 : XTL_{Emu}IDirectSoundBuffer_SetMaxDistance
+DxbxHLE : Unused patch 281 : XTL_{Emu}IDirectSoundBuffer_SetMinDistance
+DxbxHLE : Unused patch 284 : XTL_{Emu}IDirectSoundBuffer_SetMode
+DxbxHLE : Unused patch 287 : XTL_{Emu}IDirectSoundBuffer_SetPosition
+DxbxHLE : Unused patch 288 : XTL_{Emu}IDirectSoundBuffer_SetRolloffCurve
+DxbxHLE : Unused patch 289 : XTL_{Emu}IDirectSoundBuffer_SetRolloffFactor
+DxbxHLE : Unused patch 290 : XTL_{Emu}IDirectSoundBuffer_SetVelocity
+DxbxHLE : Unused patch 294 : XTL_{Emu}IDirectSoundStream_Flush
+DxbxHLE : Unused patch 296 : XTL_{Emu}IDirectSoundStream_SetHeadroom
+DxbxHLE : Unused patch 297 : XTL_{Emu}IDirectSoundStream_SetI3DL2Source
+DxbxHLE : Unused patch 298 : XTL_{Emu}IDirectSoundStream_SetPitch
+DxbxHLE : Unused patch 299 : XTL_{Emu}IDirectSoundStream_SetVolume
+DxbxHLE : Unused patch 300 : XTL_{Emu}IDirectSoundStream_Unknown1
+DxbxHLE : Unused patch 306 : XTL_{Emu}QueueUserAPC
+DxbxHLE : Unused patch 308 : XTL_{Emu}ReleaseSemaphore
+DxbxHLE : Unused patch 311 : XTL_{Emu}RtlDestroyHeap
+DxbxHLE : Unused patch 312 : XTL_{Emu}RtlDestroyHeap
+DxbxHLE : Unused patch 318 : XTL_{Emu}SignalObjectAndWait
+DxbxHLE : Unused patch 319 : XTL_{Emu}timeKillEvent
+DxbxHLE : Unused patch 320 : XTL_{Emu}timeSetEvent
+DxbxHLE : Unused patch 328 : XTL_{Emu}XAudioCreateAdpcmFormat
+DxbxHLE : Unused patch 343 : XTL_{Emu}XInputPoll
+DxbxHLE : Unused patch 344 : XTL_{Emu}XInputSetState
+DxbxHLE : Unused patch 351 : XTL_{Emu}XOnlineLaunchNewImage
+DxbxHLE : Unused patch 353 : XTL_{Emu}XSetProcessQuantumLength
+DxbxHLE : Unused patches : 160.
+EmuMain (0xB28): Initial thread starting.
+EmuKrnl (0xB28): PsCreateSystemThreadEx
+(
+   ThreadHandle        : 0x0838FDF4
+   ThreadExtraSize     : 0x00000000
+   KernelStackSize     : 0x00040000
+   TlsDataSize         : 0x00000094
+   ThreadId            : 0x00000000
+   StartContext1       : 0x000E36E9
+   StartContext2       : 0x00000000
+   CreateSuspended     : 0x00000000
+   DebugStack          : 0x00000000
+   StartRoutine        : 0x000DF7B8
+);
+EmuKrnl (0xA38): PCSTProxy
+(
+   StartContext1       : 0x000E36E9
+   StartContext2       : 0x00000000
+   StartRoutine        : 0x000DF7B8
+);
+EmuFS (0xA38): TLS Data Dump...
+EmuFS (0xA38): 0x08F67240: 00000000000000000000000000000000
+EmuFS (0xA38): 0x08F67250: 00000000000000000000000000000000
+EmuFS (0xA38): 0x08F67260: 00000000000000000000000000000000
+EmuFS (0xA38): 0x08F67270: 00000000000000000000000000000000
+EmuFS (0xA38): 0x08F67280: 00000000000000000000000000000000
+EmuFS (0xA38): 0x08F67290: 00000000000000000000000000000000
+EmuFS (0xA38): 0x08F672A0: 00000000000000000000000000000000
+EmuFS (0xA38): 0x08F672B0: 00000000000000000000000000000000
+EmuFS (0xA38): 0x08F672C0: 00000000000000000000000000000000
+EmuFS (0xA38): CurrentFS=003B  OrgFS=59  NewFS=31  pTLS=0x00206CC4
+EmuKrnl (0xB28): ThreadHandle : 0x01D0, ThreadId : 0x0A38
+EmuKrnl (0xB28): NtClose
+(
+   Handle              : 0x000001D0
+);
+EmuMain (0xB28): Initial thread ended.
+EmuXapi (0xA38): EmuXapiThreadStartup
+(
+   StartRoutine        : 0x000E36E9
+   StartContext        : 0x00000000
+)
+EmuXapi (0xA38): EmuXapiApplyKernelPatches() // Perhaps XapiInitProcess isn't found?
+EmuXapi (0xA38): EmuXapiInitProcess();
+EmuXapi (0xA38): EmuXRegisterThreadNotifyRoutine
+(
+   pThreadNotification : 0x00240768 (0x001116C7)
+   fRegister           : 0x00000001
+);
+EmuKrnl (0xA38): KeQuerySystemTime
+(
+   CurrentTime         : 0x09A8FF04
+);
+EmuKrnl (0xA38): KeQuerySystemTime
+(
+   CurrentTime         : 0x09A8FF04
+);
+EmuXapi (0xA38): EmuQueryPerformanceFrequency
+(
+   lpFrequency         : 0x09A8FEFC
+);
+EmuXapi (0xA38): EmuQueryPerformanceFrequency
+(
+   lpFrequency         : 0x09A8FEFC
+);
+EmuXapi (0xA38): EmuQueryPerformanceFrequency
+(
+   lpFrequency         : 0x09A8FEFC
+);
+EmuXapi (0xA38): EmuQueryPerformanceFrequency
+(
+   lpFrequency         : 0x09A8FEDC
+);
+EmuXapi (0xA38): EmuQueryPerformanceFrequency
+(
+   lpFrequency         : 0x09A8FEDC
+);
+EmuXapi (0xA38): EmuQueryPerformanceFrequency
+(
+   lpFrequency         : 0x09A8FEDC
+);
+EmuXapi (0xA38): EmuXGetLaunchInfo
+(
+   pdwLaunchDataType : 0x00236B10
+   pLaunchData       : 0x00235F0C
+);
+EmuKrnl (0xA38): PCSTProxy : Catched an exception : Access violation at address 0001489B in module 'Dxbx.exe'. Read of address FFFFFFFF
+Exception at address $100EB3F0
+EmKrnl : Calling pfnNotificationRoutine[1] (0x001116C7)
+DxbxKrnl: Terminating Process
+Stop logging.

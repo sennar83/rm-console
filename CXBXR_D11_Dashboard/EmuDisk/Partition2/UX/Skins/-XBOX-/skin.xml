@@ -1,0 +1,70 @@
+﻿<Skin name="-XBOX-">
+    <Information>
+        <Author>D3VIL</Author>
+        <Version>1</Version>
+        <Copyright>2004</Copyright>
+        <Skinner Name="UX Architect" Version="1.0c" />
+    </Information>
+    <IntroMovie>lightsloading.wmv</IntroMovie>
+    <LoadingScreen ShowInfo="False">
+        <Background>lightsloading.wmv</Background>
+    </LoadingScreen>
+    <Main Globe="False" Orb="False" Fog="False">
+        <Background EnableAudio="False">XP Blue.jpg</Background>
+        <InfoFont>Square-10.xpr</InfoFont>
+        <Text Top="29" Left="31" Width="200" Scroll="0" Color="0xFFFFFFFF" Source="DateTime" Align="Left" />
+        <Text Top="95" Left="32" Width="200" Scroll="0" Color="0xFFFFFFFF" Source="F_Free" Align="Left" />
+        <Text Top="33" Left="385" Width="200" Scroll="0" Color="0xFFFFFFFF" Source="E_Free" Align="Left" />
+        <Text Top="100" Left="387" Width="200" Scroll="0" Color="0xFFFFFFFF" Source="IP" Align="Left" />
+        <Text Top="163" Left="50" Width="143" Scroll="0" Color="0xFFFFFFFF" Source="DVDTitle" Align="Left" />
+        <Text Top="161" Left="401" Width="139" Scroll="2" Color="0xFFFFFFFF" Source="SongName" Align="Left" />
+        <Image Top="346" Left="502" Width="94" Height="89" Source="GameIcon" />
+        <Image Source="GamePreview" />
+        <Image Top="13" Left="3" Width="281" Height="47" Opacity="100">Cool 3.png</Image>
+        <Image Top="77" Left="-1" Width="284" Height="50" Opacity="100">Cool 3.png</Image>
+        <Image Top="14" Left="353" Width="279" Height="50" Opacity="100">Cool 3.png</Image>
+        <Image Top="80" Left="354" Width="279" Height="53" Opacity="100">Cool 3.png</Image>
+        <Image Top="144" Left="30" Width="198" Height="50" Opacity="100">Cool 3.png</Image>
+        <Image Top="146" Left="383" Width="195" Height="44" Opacity="100">Cool 3.png</Image>
+        <Image Top="199" Left="246" Width="225" Height="213" Opacity="100">Icon.png</Image>
+        <Image Top="328" Left="482" Width="132" Height="122" Opacity="100">Icon.png</Image>
+        <Image Top="246" Left="2" Width="241" Height="253" Opacity="100">Cool 3.png</Image>
+        <Menu Align="Middle" ShowIcon="False" ShowArrows="False">
+            <Preview EnableAudio="True" Top="226" Left="272" Width="170" Height="161" />
+            <Position Top="309" Left="29" Width="173" Height="146" Fixed="True" FixAt="2" MaxItem="4" />
+            <Font>39Smooth-10.xpr</Font>
+        </Menu>
+        <ColorScheme>
+            <AMBIENT_FOGCOLOR>0x00FFFFFF</AMBIENT_FOGCOLOR>
+            <AMBIENT_SKYCOLOR>0x0000000F</AMBIENT_SKYCOLOR>
+            <AMBIENT_CELLCOLOR>0x0000C000</AMBIENT_CELLCOLOR>
+            <CAPTION_TEXTCOLOR>0xFFFFFFFF</CAPTION_TEXTCOLOR>
+            <CAPTION_BACKCOLOR>0x64808080</CAPTION_BACKCOLOR>
+            <DIALOG_BORDERCOLOR>0xFF000000</DIALOG_BORDERCOLOR>
+            <DIALOG_BACKCOLOR>0x64808080</DIALOG_BACKCOLOR>
+            <DIALOG_INNER_BORDERCOLOR>0xC8000000</DIALOG_INNER_BORDERCOLOR>
+            <DIALOG_INNER_BACKCOLOR>0x5A808080</DIALOG_INNER_BACKCOLOR>
+            <DIALOG_TEXTCOLOR>0xFFFFFFFF</DIALOG_TEXTCOLOR>
+            <DIALOG_DISABLEDTEXT>0xFFB3B3B4</DIALOG_DISABLEDTEXT>
+            <OPTION_TEXTCOLOR>0xFFFFFFFF</OPTION_TEXTCOLOR>
+            <OPTION_ACTIVETEXTCOLOR>0xFFFF8000</OPTION_ACTIVETEXTCOLOR>
+            <OPTION_ACTIVEBACKCOLOR>0x50808080</OPTION_ACTIVEBACKCOLOR>
+            <BUTTON_BORDERCOLOR>0xC8000000</BUTTON_BORDERCOLOR>
+            <BUTTON_TEXTCOLOR>0xFFFFFFFF</BUTTON_TEXTCOLOR>
+            <BUTTON_BACKCOLOR>0xFF525252</BUTTON_BACKCOLOR>
+            <BUTTON_ACTIVETEXTCOLOR>0xFFFFFFFF</BUTTON_ACTIVETEXTCOLOR>
+            <BUTTON_ACTIVEBACKCOLOR>0xFF808080</BUTTON_ACTIVEBACKCOLOR>
+            <KB_KEYBG_HIGHLIGHT>0x19575757</KB_KEYBG_HIGHLIGHT>
+            <KB_KEYBG_DISABLED>0x78C0C0C0</KB_KEYBG_DISABLED>
+            <KB_KEY_PRESSED>0xFF008000</KB_KEY_PRESSED>
+            <KB_KEY_NORMAL>0xFF000000</KB_KEY_NORMAL>
+            <KB_KEY_DISABLED>0x78808080</KB_KEY_DISABLED>
+            <KB_KEY_ACTIVEBORDER>0xFFFF0000</KB_KEY_ACTIVEBORDER>
+            <KB_KEY_TEXTCOLOR>0xFF000000</KB_KEY_TEXTCOLOR>
+            <KB_KEY_TEXTBACKCOLOR>0xFFFFFFFF</KB_KEY_TEXTBACKCOLOR>
+            <KB_KEY_TEXTBORDERCOLOR>0x780000FF</KB_KEY_TEXTBORDERCOLOR>
+            <MENU_TEXTCOLOR>0x96808080</MENU_TEXTCOLOR>
+            <MENU_ACTIVETEXTCOLOR>0xFFFFFFFF</MENU_ACTIVETEXTCOLOR>
+        </ColorScheme>
+    </Main>
+</Skin>
